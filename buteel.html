@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="mn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Бидний бүтээл</title>
+
+    <!-- Font Awesome CDN холбоос -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- Гадны CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="buteel.css" />
+    <link rel="stylesheet" href="blog.css" />
+    <!-- JQuery CDN холбоос -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Навигацийн хэсэг -->
+    <nav>
+      <img src="img/favicon.ico" class="logo" alt="" />
+
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html" >Нүүр Хуудас</a></li>
+				<li><a href="buteel.html"class="active">Бүтээлийн танилцуулга</a></li>
+				<li><a href="course-inner.html">Хичээлийн тухай</a></li>
+				<li><a href="contact.html">Холбоо барих</a></li>
+        </ul>
+
+        <img src="img/menu.png" id="menu-btn" alt="" />
+      </div>
+    </nav>
+    
+    <section id="about-home">
+      <h2>Блог.</h2>
+    </section>
+    
+    <section id="blog-container">
+      <div class="blogs">
+        <div class="post">
+          <img src="img/r2d2.webp" alt="" />
+          <h3>R2-D2</h3>
+          <p>
+            R2-D2 (/ˌɑːr.tuːˈdiːtuː/) эсвэл Артутэйту[1] нь Жорж Лукас бүтээсэн "Оддын дайн" францын уран зургийн доторх дүр төрхтэй хиймэл оюун ухаант робот юм.
+          </p>
+          <a href="post.html">Дэлгэрэнгүй унших</a>
+        </div>
+
+        <div class="post">
+          <img src="img/revan.webp" alt="" />
+          <h3>Darth Revan</h3>
+          <p>
+            Darth Revan нь Star Wars: Knights of the Old Republic (KOTOR) видео тоглоомын цувралын төв дүр бөгөөд уг тоглоомыг BioWare хөгжүүлж, LucasArts хэвлэн гаргасан. Реван нь Star Wars Legends (өмнө нь "Expanded Universe" гэж нэрлэгдэж байсан) дахь хамгийн нарийн төвөгтэй, сонирхол татам дүрүүдийн нэг юм.
+          </p>
+          <a href="post.html">Дэлгэрэнгүй унших</a>
+        </div>
+
+        <div class="post">
+          <img src="img/vader.jpeg" alt="" />
+          <h3>Darth Vader</h3>
+          <p>
+            Darth Vader бол Star Wars (Оддын дайн) кино ертөнцийн хамгийн алдартай, танигдсан дүрүүдийн нэг юм. Тэрээр анх Энакин Скайуокер нэртэйгээр төрсөн бөгөөд хүчтэй Жедай байсан ч аажмаар харанхуйн тал руу орж Сит Лорд болсон юм.
+          </p>
+          <a href="post2.html">Дэлгэрэнгүй унших</a>
+        </div>
+        <div class="post">
+          <img src="img/iden1.webp" alt="" />
+          <h3>Iden Versio</h3>
+          <p>
+            Иден Версио (Iden Versio) нь Star Wars кино ертөнцийн Star Wars: Battlefront II видео тоглоомын гол баатар бөгөөд Imperial Intelligence агент, эсвэл Inferno Squad-ын командлагч юм. Түүний дүр нь Empire (Эзэнт Гүрэн)-д үнэнч байдаг бөгөөд хожим нь Rebel Alliance (Эсэргүүцэгчүүдийн холбоо)-д шилжин тэмцэх шийдвэр гаргадаг.
+          </p>
+          <a href="post3.html">Дэлгэрэнгүй унших</a>
+        </div>
+        <div class="post">
+          <img src="img/mandalorian.jpeg" alt="" />
+          <h3>Mandalorian</h3>
+          <p>
+            "Мандалорын хүн" (The Mandalorian) нь Star Wars кино ертөнцөд өрнөдөг, Америкийн шинжлэх ухааны уран зөгнөлт, адал явдалт цуврал юм. Энэхүү цуврал нь Жон Фавро-гийн бүтээл бөгөөд анх 2019 онд Disney+ платформ дээр гарсан.
+          </p>
+          <a href="post4.html">Дэлгэрэнгүй унших</a>
+        </div>
+      </div>
+
+      <div class="cate">
+        <h2>Категориуд</h2>
+        <hr />
+        <a href="#">Вэб хөгжүүлэлт</a>
+        <hr />
+        <a href="#">Вэб дизайн</a>
+        <hr />
+        <a href="#">Апп хөгжүүлэлт</a>
+        <hr />
+        <a href="#">Фронтэнд вэб</a>
+        <hr />
+        <a href="#">Python программчлал</a>
+        <hr />
+        <a href="#">Javascript техникууд</a>
+      </div>
+    </section>
+    <!-- Блогийн агуулга дуусна -->
+
+   
+
+    <script>
+      // Менюг харуулах
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
+
+      // Менюг хаах
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+    </script>
+  </body>
+</html>
